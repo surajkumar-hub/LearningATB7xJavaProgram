@@ -36,21 +36,30 @@ public class Lab075 {
         System.out.println("Enter the Student Score!!");
         int score = sc.nextInt();
 
-        char grade = 'F';
+        char grade ;
 
-        if(score >=90 && score <=100){
+        if(score >=90 && score <=100)
+        {
             grade = 'A';
         }
-        else if(score >=80 && score <=89){
+        else if(score >=80 && score <=89)
+        {
             grade = 'B';
-        }else if (score >= 70 && score <= 79) {
+        }
+        else if (score >= 70 && score <= 79)
+        {
             grade = 'C';
-        }else if (score >= 60 && score <= 69) {
+        }
+        else if (score >= 60 && score <= 69)
+        {
             grade = 'D';
-        }else if( score <=0 || score > 100){
+        }
+        else if( score <=0 || score > 100)
+        {
             System.out.println("LOL!!, are you God?");
             grade = 'O';
-        }else{
+        }else
+        {
             grade ='F';
         }
 
