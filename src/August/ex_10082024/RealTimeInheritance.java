@@ -25,7 +25,7 @@ class TestCase1 extends BaseClass{
     }
 }
 
-class BaseClass{
+class   BaseClass{
     BaseClass()
     {
         System.out.println("DC - BaseClass");
