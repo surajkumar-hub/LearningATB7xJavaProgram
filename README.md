@@ -3,7 +3,7 @@
 Author - Suraj
 
 This repo contains the source code for the 
-exercise that we have done in the ATB7x batch
+exercise that I have done in the ATB7x batch
 
 - Core Java
 - OOPS
@@ -13,3 +13,7 @@ exercise that we have done in the ATB7x batch
 - File IO
 - Exception Handling
 - Other misc concepts
+
+Postman collection also added
+![image](https://github.com/user-attachments/assets/c2bc5126-92ae-4569-b1c0-5d1fb5d8221b)
+
