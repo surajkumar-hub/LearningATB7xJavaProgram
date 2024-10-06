@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "142b01f1-8de5-43a9-a9e6-d42137c11f39",
+		"name": "Prject#1 - Restful Booker Integration Scenarios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20644944"
+	},
+	"item": [
+		{
+			"name": "Step1 - Create New Booking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(\"After running the API\")\r",
+							"console.log(\"Testcase written by us\")\r",
+							"\r",
+							"console.log(pm.info.requestName) // It\"ll display name of the request\r",
+							"// pm is an object of JavaScript\r",
+							"\r",
+							"// Print response in text format\r",
+							"console.log(pm.response.text())\r",
+							"\r",
+							"// Print response in json format\r",
+							"console.log(pm.response.json())\r",
+							"\r",
+							"// Print response code\r",
+							"console.log(pm.response.code)\r",
+							"\r",
+							"// Print status\r",
+							"console.log(pm.response.status)\r",
+							"\r",
+							"// Print headers\r",
+							"console.log(pm.response.headers)\r",
+							"\r",
+							"// Print cookies\r",
+							"console.log(pm.response.cookies)\r",
+							"\r",
+							"// console.log is used to just see the output in console\r",
+							"\r",
+							"// Assertion\r",
+							"// An assertion is a statement or declaration that is made confidently\r",
+							"// Expected Result = Actual Result \r",
+							"\r",
+							"// To write test cases we need to use pm.test & pm.expect\r",
+							"pm.test(\"Verify the status code for the request is 200 OK\", function()\r",
+							"\r",
+							"{\r",
+							"    pm.expect(pm.response.code).to.be.equal(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that bookingId is not null\",function(){\r",
+							"        var bookingId = pm.response.json()[\"bookingid\"];\r",
+							"        console.log(bookingId);\r",
+							"        // Set the BookingId as global variable\r",
+							"        pm.environment.set(\"e_bookingId\",bookingId);\r",
+							"        pm.expect(bookingId).to.not.equal(null);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that booking person firstname\",function(){\r",
+							"        var firstname = pm.response.json()[\"booking\"][\"firstname\"];\r",
+							"        console.log(firstname);\r",
+							"        pm.expect(firstname).to.equal(\"James\");\r",
+							"        // Change the bookingId value from 485 to 123\r",
+							"        pm.environment.set(\"BookingId\",123)\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that booking person lastname\",function(){\r",
+							"        var lastname = pm.response.json()[\"booking\"][\"lastname\"];\r",
+							"        console.log(lastname);\r",
+							"        pm.expect(lastname).to.equal(\"Brown\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that booking depositpaid\",function(){\r",
+							"        var depositpaid = pm.response.json()[\"booking\"][\"depositpaid\"];\r",
+							"        console.log(depositpaid);\r",
+							"        pm.expect(depositpaid).to.equal(true);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that booking checkin date\",function(){\r",
+							"        var checkin = pm.response.json()[\"booking\"][\"bookingdates\"][\"checkin\"];\r",
+							"        console.log(checkin);\r",
+							"        pm.expect(checkin).to.equal(\"2018-01-01\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"console.log(\"Before running the API\")"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"James\",\r\n    \"lastname\" : \"Brown\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2018-01-01\",\r\n        \"checkout\" : \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/booking",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"booking"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \\\r\n  https://restful-booker.herokuapp.com/booking \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n    \"firstname\" : \"Jim\",\r\n    \"lastname\" : \"Brown\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2018-01-01\",\r\n        \"checkout\" : \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Step2 - Update Partial Booking | Basic Auth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verfiy that booking person firstname after update\",function(){\r",
+							"        var firstname = pm.response.json()[\"firstname\"];\r",
+							"        console.log(firstname);\r",
+							"        pm.expect(firstname).to.equal(\"Suraj\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=abc123"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46cGFzc3dvcmQxMjM=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"Suraj\",\r\n    \"lastname\" : \"Brown\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/booking/{{e_bookingId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"booking",
+						"{{e_bookingId}}"
+					]
+				},
+				"description": "Generated from cURL: curl -X PATCH \\\r\n  https://restful-booker.herokuapp.com/booking/1 \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Accept: application/json' \\\r\n  -H 'Cookie: token=abc123' \\\r\n  -d '{\r\n    \"firstname\" : \"James\",\r\n    \"lastname\" : \"Brown\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Step3 - Fetch Single Booking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verfiy that booking person firstname after update\",function(){\r",
+							"        var firstname = pm.response.json()[\"firstname\"];\r",
+							"        console.log(firstname);\r",
+							"        pm.expect(firstname).to.equal(\"Suraj\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/booking/{{e_bookingId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"booking",
+						"{{e_bookingId}}"
+					]
+				},
+				"description": "Generated from cURL: curl -i https://restful-booker.herokuapp.com/booking/1"
+			},
+			"response": []
+		}
+	]
+}
