@@ -12,7 +12,7 @@ exercise that I have done in the ATB7x batch
 - Design Patterns
 - File IO
 - Exception Handling
-- Other misc concepts
+- Other Misc Concepts
 
 [Java Notes -TheTestingAcademy.pdf](https://github.com/user-attachments/files/17091025/Java.Notes.-TheTestingAcademy.pdf)
 

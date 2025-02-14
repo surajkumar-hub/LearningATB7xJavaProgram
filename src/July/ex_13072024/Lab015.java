@@ -6,6 +6,7 @@ public class Lab015 {
         int b = 0b1010; // We can store binary number like this
         int octal = 0101; // We can store octal number like this
         int hex = 0Xface; // This is hex number system
+        // These are number system
 
         // https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=10
 

@@ -14,7 +14,7 @@ public class Lab010 {
         char _123 = 'N';
 
         // Can I change the data type of variable between program
-        // No
+        // No. We can't change
         int age = 123;
         // String age = "Suraj";
         // it's not possible. Java won't allow to change data type in-between the program
