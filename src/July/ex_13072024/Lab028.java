@@ -3,7 +3,7 @@ package July.ex_13072024;
 public class Lab028 {
     public static void main(String[] args) {
         // Relational Operators -> boolean
-        // >, < >=,<=, == , != ( ! = ) - true or false
+        // >, <,  >=,<=, == , != ( ! = ) - true or false
        // int age_mamitha = 30;
        // int age_pramod = 34;
         // boolean result = age_pramod > age_mamitha;

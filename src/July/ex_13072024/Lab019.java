@@ -12,6 +12,9 @@ public class Lab019 {
 //            ______
 //                4 - Remainder
 
-        System.out.println(89%10);
+        System.out.println(88%10); //O/P: 8
+        System.out.println(89%10); //O/P: 9
+        System.out.println(89/10); //O/P: 8
+
     }
 }
