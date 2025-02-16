@@ -10,3 +10,7 @@ public class Lab037 {
         System.out.println(b);
     }
 }
+
+/* O/P:
+10
+false */

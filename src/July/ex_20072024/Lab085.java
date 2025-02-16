@@ -2,7 +2,7 @@ package July.ex_20072024;
 
 public class Lab085 {
     public static void main(String[] args) {
-        // JDK > 13
+        // After JDK > 13 one more feature has added i.e. switch can return something
         char code = 'A';
         int val = switch (code){
             case 'A':

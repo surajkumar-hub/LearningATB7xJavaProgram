@@ -8,13 +8,15 @@ public class Lab067 {
         // if age > 18 -> vote, else -> not allowed
 
         // There are 2 condition in Java -> 1. Switch , 2. If
+
         // If Condition
+
         // syntax -
         /** if (condition ==> true or false){
 
-    } else{
+         } else{
 
-      } **/
+         } **/
 
             int age = 35;
             if (age > 18) {

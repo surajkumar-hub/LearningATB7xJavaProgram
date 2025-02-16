@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Lab072 {
     public static void main(String[] args) {
         // Take user input and check if number is even or odd.
+
          // Logic Building
-        // Step 1. Figure out the inputs &  // 2. Data type
+        // Step 1. Figure out the inputs & // 2. Data type
         //  Data type  - int
         // How to take input in the Java? - By using Scanner class
         // Which function will give us assignment - nextInt() -> input
@@ -20,7 +21,7 @@ public class Lab072 {
         System.out.println("Enter the number");
 
         int user_input = sc.nextInt();
-        // whatever value user will enter nextInt() function will assign that value to user_input variable
+        // whatever value user will enter, nextInt() function will assign that value to user_input variable
 
         System.out.println(user_input);
 

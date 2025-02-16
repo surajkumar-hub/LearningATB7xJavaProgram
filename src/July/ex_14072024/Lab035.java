@@ -15,7 +15,7 @@ public class Lab035 {
         int a  = 10;
         int b = 23;
         int sum  = a+b;
-        // Binary - Arthe +,-,*,/....
+        // Binary - Arithmetic +,-,*,/
         // Two operand
         // a, b -> operand , + operator
 

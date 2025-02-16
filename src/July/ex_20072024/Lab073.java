@@ -8,11 +8,10 @@ public class Lab073 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number 1");
         int num1 = sc.nextInt();
-
         System.out.println("Enter the num 2");
         int num2 = sc.nextInt();
 
-//        System.out.println(Math.max(num1,num2)); We can use this logic also
+       // System.out.println(Math.max(num1,num2)); We can use this logic also
 
         if (num1 > num2) {
             System.out.println("Maximum number is " +num1);

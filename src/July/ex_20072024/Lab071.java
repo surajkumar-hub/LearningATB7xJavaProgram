@@ -1,6 +1,6 @@
 package July.ex_20072024;
 
-public class Lab071 {
+public class  Lab071 {
     public static void main(String[] args) {
         // Modulus - %
         // 10%2 -> 0

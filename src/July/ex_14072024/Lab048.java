@@ -7,6 +7,6 @@ public class Lab048 {
         System.out.println(a);
         // A - a++  -> Exp = 10 | a = 11
         // + - operator
-        // B- a++  -> Exp = 12 | a = 12
+        // B- ++a  -> Exp = 12 | a = 12
     }
 }

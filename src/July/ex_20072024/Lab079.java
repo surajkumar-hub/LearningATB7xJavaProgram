@@ -29,7 +29,7 @@ public class Lab079 {
                 System.out.println("Vowel");
                 break;
             default:
-                System.out.println("Not a Vowel, It is Consonant");
+                System.out.println("Not a Vowel, It is a Consonant");
 
         }
         // This another way of writing code by using multiple condition in same case

@@ -7,16 +7,17 @@ public class Lab077 {
         // If Else - Condition  ( If, else If , else) - multiple condition
 
         // Switch - Better option if we have 2+ condition
-        // Which day it is - Suppose id user enters a day from 1 to 7
+        // Which day it is - Suppose user enters a day from 1 to 7
         // 3 -> Wed
 
         // MTWTFSS
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the day from 1 to 7, Tell What day it its");
+        System.out.println("Enter the day from 1 to 7, Tell What day it is");
         int day = sc.nextInt();
 
-        switch (day){
+        switch (day)
+        {
             case 1:
                 System.out.println("Mon");
                 break;

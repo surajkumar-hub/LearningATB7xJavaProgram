@@ -6,8 +6,7 @@ public class Lab051 {
         long b = 91;
         String s1 = "KK";
         String s2 = "VV";
-        //System.out.println(s1+s2+a+b);
-        System.out.println(s1+s2+(a+b));
-        //System.out.println(KK+vv+87+91);
+        //System.out.println(s1+s2+a+b); O/P: KK+vv+87+91
+        System.out.println(s1+s2+(a+b)); // O/P: KKVV178
     }
 }

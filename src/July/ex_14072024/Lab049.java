@@ -9,7 +9,5 @@ public class Lab049 {
         // + -> nothing
         // B -> ++a  Exp =  12 | a = 12
         // Exp = A+B = 23 , a = 12
-
-        // a--, --a
     }
 }

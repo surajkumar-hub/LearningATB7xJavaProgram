@@ -6,7 +6,9 @@ public class Lab042 {
         // short s = phone_no; // Implicit Narrowing - JVM?
         short s = (short) phone_no;
         System.out.println(s);
-        // JVM - GC -
+        // In the JVM there is something called Garbage Collector
+        // Overflows data or waste data will go to the GC
 
     }
 }
+

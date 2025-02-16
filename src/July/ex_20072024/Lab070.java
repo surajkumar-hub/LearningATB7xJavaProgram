@@ -7,9 +7,8 @@ public class Lab070 {
         if(2+2 < 4){
             System.out.println("Inside the loop");
         }
-        System.out.println("Outside -> "+a);
+        System.out.println("Outside the loop -> "+a);
 
         // else part is always optional
-        // Understand with debug -> checking the code line by line
     }
 }

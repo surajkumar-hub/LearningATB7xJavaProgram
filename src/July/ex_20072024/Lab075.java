@@ -18,7 +18,7 @@ public class Lab075 {
         // 1. Find the user Inputs
         // score - data type? - int -90
         // return -> grade - data-type - char  - A
-        // DAA- Ask for the confirmation of the doubts
+        // Don't Assume Anything - Ask for the confirmation of the doubts
         // Interviewer ->  int, char
         // Scanner class -> to take the input
 
