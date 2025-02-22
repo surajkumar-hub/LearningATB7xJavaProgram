@@ -6,9 +6,9 @@ public class Lab121 {
         // 1. Pre-built - Math.max()
         // 2. User created / defined
 
-        // Two components of the functions
-        // 1. Define
-        // 2. Call the function
+        // There are two components of the functions
+        // 1. We have to define
+        // 2. We have to call the function
 
         // Call the function
         for (int i = 0; i < 5; i++)
@@ -19,7 +19,7 @@ public class Lab121 {
         greet2();
 
     }
-    // 1. Define
+    // 1. Define the function
     static void greet()
     {
         System.out.println("Hi, How are you?");
@@ -29,6 +29,7 @@ public class Lab121 {
     {
         System.out.println("greet2");
     }
+    // We can't write this function inside main() because function inside a function isn't allowed
 
     }
 

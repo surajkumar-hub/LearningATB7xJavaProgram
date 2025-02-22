@@ -9,7 +9,7 @@ public class Lab098 {
 //            System.out.println("Hello");
 //        } // In this case the loop will run for infinite times
 
-//        for (int i=0)
+//        for (int i=0;;)
 //        {
 //            System.out.println("Hello");
 //        } // In this case also the loop will run for infinite times

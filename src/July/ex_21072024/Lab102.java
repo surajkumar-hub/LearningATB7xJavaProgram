@@ -8,4 +8,4 @@ public class Lab102 {
             }
         }
     }
-// Initialization part can declare outside the for loop also
+// We can define Initialization part outside the for loop but we can't define condition outside the for loop

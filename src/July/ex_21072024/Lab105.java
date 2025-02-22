@@ -25,5 +25,7 @@ public class Lab105 {
         //8
         //9
         //10
+        // Suppose I want to exit the loop when i reaches to 5
+
     }
 }

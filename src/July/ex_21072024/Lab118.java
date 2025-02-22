@@ -17,3 +17,5 @@ public class Lab118 {
 
     }
 }
+// In do-while loop -> It'll print the statement first, then check the condition (It runs atleast 1 time)
+// In while & for loop -> First it"ll check the condition, then it prints the statement

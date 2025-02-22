@@ -2,13 +2,14 @@ package July.ex_21072024;
 
 public class Lab108 {
     public static void main(String[] args) {
+        // Use of continue keyword
         for (int i = 0; i < 10; i++) // i = 0 to 9, times  = 10
         {
             System.out.println(i);
             if( i == 5)
             {
                 continue; // Continue basically used to skipping the remaining program
-                /** Basically it means when i value became 5, row no 13 won't execute and will be skipped **/
+                /** Basically it means when i value became 5, row no 14 won't execute and will be skipped **/
             }
             System.out.println("After!!");
         }

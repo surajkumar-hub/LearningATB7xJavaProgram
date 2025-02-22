@@ -60,7 +60,7 @@ public class Lab122 {
     // 4. With Parameters and With Return Type
     static int function_type4(int a,int b)
     {
-            System.out.println("4. With Parameters and With Return Type");
+        System.out.println("4. With Parameters and With Return Type");
         return a+b;
     }
     }

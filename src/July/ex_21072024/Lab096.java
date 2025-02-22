@@ -7,3 +7,4 @@ public class Lab096 {
         }
     }
 }
+// Here the condition is false. That's why it won't print anything.

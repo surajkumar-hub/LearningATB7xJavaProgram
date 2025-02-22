@@ -21,6 +21,11 @@ public class Lab106 {
         // i = 3 -> 3
         // i = 4 -> 4
         // i = 5 -> Out of loop
+        /** O/P:
+         1
+         2
+         3
+         4 **/
 
     }
 }
