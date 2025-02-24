@@ -4,7 +4,7 @@ public class Lab137 {
     public static void main(String[] args) {
         // String - Bunch of Characters
         // There are two ways to create string - 1. by creating object and 2. by assigning directly
-        String s1 = new String("pramod"); // Store in Heap Area
+        String s1 = new String("pramod"); // Stored in Heap Area
         String s2 = "pramod"; // Stored in String constant pool
 
         // Strings are Immutable in nature. Means once they are created and if we do any operation,

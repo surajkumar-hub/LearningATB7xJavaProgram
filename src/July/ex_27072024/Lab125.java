@@ -13,7 +13,7 @@ public class Lab125 {
         System.out.println(marks[0]); // 0
         System.out.println(marks[1]); // 0
         System.out.println(marks[2]); // 0
-        marks[0] = 91;
+        marks[0] = 91; // Assigned value
         marks[1] = 92;
         marks[2] = 93;
         System.out.println(marks[0]); // 91
