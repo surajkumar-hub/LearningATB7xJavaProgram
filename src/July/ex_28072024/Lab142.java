@@ -8,11 +8,11 @@ public class Lab142 {
         Dog dog2Ref = new Dog();
         dog2Ref.name = "german shepherd";
 
-        // What is functions - Function is use to perform a task , block of code
+        // What is functions - Function is a block of code which is used     to perform a task ,
         // What is Methods - functions within the class are called methods
         // What is Class -> It's a blueprint
         // What is Object ->  Real entity created from the class / instance of the class is also called
         // an Object
-        // A class will have data members (attributes) and methods
+        // A class will have data members (attributes) and methods (behaviours)
     }
 }

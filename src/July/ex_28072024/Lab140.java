@@ -3,7 +3,8 @@ package July.ex_28072024;
 public class Lab140 {
     public static void main(String[] args) {
 
-        // OOPS is concept. Concept means certain rules has provided how user can solve a problem statement
+        // Java is an object oriented programming language because it follows the OOPS concept
+        // OOPS is a concept. Concept means certain rules has provided how user can solve a problem statement
         // When we have real life problem, we can solve that by using OOPS concept
         // Suppose creating a new planet
         // AHuman
@@ -13,8 +14,8 @@ public class Lab140 {
         // These attributes and behaviours are also called as blueprint
         // Amit - AHuman
         // Amit  - Attribute & Behaviour
-        /** In OOPS concept, any blueprint is called as Class and the rela thing which is created from the
-         // class is called as the object **/
+        /** In OOPS concept, any blueprint is called as Class and the real thing which is created from
+         // the class is called as the object **/
 
         // In OOPS concept, any Blueprint is called as the Class
         // A class can have some properties (attributes) and functions (methods)

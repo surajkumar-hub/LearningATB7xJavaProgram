@@ -2,12 +2,13 @@ package July.ex_28072024;
 
 public class Car
 {
-    // Every class will have attribute, data member, instance variable, properties
+    // Every class will have attribute, data member, instance variable, properties, behaviour /
+    // methods / functionalities
 
     Engine er;
     Tyre tr;
 
-    // behaviour / methods/  functionalities
+    //
 }
 
 

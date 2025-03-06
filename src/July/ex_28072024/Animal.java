@@ -12,7 +12,7 @@ public class Animal {
     public static void main(String[] args) {
         // Animal animal = new Animal();
         // animal.name = "Dog";
-        Animal animalRef  = null; // here animalRef will be pointing towards null area. No objects will
+        Animal animalRef  = null; // here animalRef will be pointing to null area. No objects will
         // be created here
         // What is null area - Null is a special area in JVM
         Animal animalRef2  = new Animal();
