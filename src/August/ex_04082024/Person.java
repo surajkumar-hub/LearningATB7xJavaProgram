@@ -4,13 +4,14 @@ public class Person {
     String name;
 
     // Special method
-       Person()
+       Person() // This method will be automatically called, when we type new Person();
        {
            System.out.println("Hi, I will be called, when object is created!");
        }
 
 
-    void talk(){
+    void talk()
+    {
         System.out.println("I am talking");
     }
 }

@@ -1,7 +1,7 @@
 package August.ex_04082024.hasA;
 
 public class Car {
-    // Aggregation - hasA
+    // Aggregation Concept - hasA
     protected void StartTheCar()
     {
         new Engine().start();

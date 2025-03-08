@@ -7,6 +7,7 @@ public class Lab152 {
         new ATBPerson();
         ATBPerson p2 = null;
         //ATBPerson(); this is wrong
+        // Here total 3 objects are created
 
     }
 }

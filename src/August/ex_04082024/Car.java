@@ -18,7 +18,7 @@ public class Car {
      {
         System.out.println("Starting");
     }
-    We can't create another function like this because we acn create only one default constructor **/
+    We can't create another function like this because we can create only one default constructor **/
 
 
     void Dog()

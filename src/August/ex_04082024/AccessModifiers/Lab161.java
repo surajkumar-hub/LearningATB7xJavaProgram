@@ -1,6 +1,6 @@
 package August.ex_04082024.AccessModifiers;
 
-// Non sub-class
+// These are non-subclasses. All the runner classes are non-subclasses
 public class Lab161 {
     // public = everywhere
     // private = Within the class
