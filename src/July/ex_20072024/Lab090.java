@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Lab090 {
     public static void main(String[] args) {
-        //Program to find the Largest Among Three Numbers:
+        //Program to find the Largest among three numbers:
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Num 1");
         int num1 = sc.nextInt();

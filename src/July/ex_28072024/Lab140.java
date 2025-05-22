@@ -8,9 +8,9 @@ public class Lab140 {
         // When we have real life problem, we can solve that by using OOPS concept
         // Suppose creating a new planet
         // AHuman
-        // Every human will have some attribute and behaviour
-        // Attribute / Properties -> 2 hand, eye color, nose, mouth, height, weight, body color, hair color
-        // Behaviour / Methods -> walk(), eat(), talk(), sleep(), read(), hear()
+        // Every human will have some attributes and behaviours
+        // Attributes / Properties -> 2 hand, eye color, nose, mouth, height, weight, body color, hair color
+        // Behaviours / Methods -> walk(), eat(), talk(), sleep(), read(), hear()
         // These attributes and behaviours are also called as blueprint
         // Amit - AHuman
         // Amit  - Attribute & Behaviour

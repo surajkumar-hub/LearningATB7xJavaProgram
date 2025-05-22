@@ -1,7 +1,7 @@
 package August.ex_10082024.Polymorphism.MethodOverloading;
 
 public class MathOperations {
-    // Encapsulation
+    // Below is the concept of Encapsulation
     private String name;
 
     public String getName()
@@ -24,7 +24,7 @@ public class MathOperations {
         return a + b;
     } **/ // If we use same parameter that is not allowed
 
-    // Method Overloading
+    // Below is the concept of Method Overloading
 
     int add(int pramod, int dutta, int amit, int megha)
     {
@@ -35,6 +35,13 @@ public class MathOperations {
     {
         System.out.println("Hello");
     }
+
+    /** double add_double(double a, double b)
+    {
+        return a + b;
+    }
+     By using polymorphism no need to create a different method to perform addition of 2 number.
+     Instead we can use same method name. Based on the argument, it"ll decide which one to call **/
 
     double add(double a, double b)
     {
@@ -60,20 +67,31 @@ public class MathOperations {
     {
         return a + b;
     }
+
     // We can have different types of constructors also
-    MathOperations() {
+    MathOperations()
+    {
+
     }
 
-    MathOperations(int a) {
+    MathOperations(int a)
+    {
+
     }
 
-    MathOperations(int a, int b) {
+    MathOperations(int a, int b)
+    {
+
     }
 
-    MathOperations(int a, int b, int c) {
+    MathOperations(int a, int b, int c)
+    {
+
     }
 
-    MathOperations(int a, int b, int c, String d) {
+    MathOperations(int a, int b, int c, String d)
+    {
+
     }
 
 }

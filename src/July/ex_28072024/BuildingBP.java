@@ -17,4 +17,4 @@ public class BuildingBP {
 
 }
 
-// This is just a blueprint. That's why main function is not present here
+// This is just a blueprint. That's why main function is not present here.

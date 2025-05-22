@@ -22,5 +22,5 @@ public class Hound extends Dog {
 /** If we call bark(), then JVM will get confused, which bark() should be called. Whether Dog class
  method will be called or Hound class method. Because as Hound extends Dog class, all the methods
  and variables will be automatically created in Hound class. To overcome this we should add
- something called @override. @Override means this is a overridden function
+ something called @override. @Override means this is an overridden function
  */

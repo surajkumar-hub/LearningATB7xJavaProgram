@@ -20,7 +20,7 @@ public class Lab163 {
 
 class VWOLogin1
 {
-    // Data Members
+    // These are Data Members
     private String username;
     private String password;
 
@@ -59,7 +59,7 @@ class VWOLogin1
 
 /** Encapsulation says you can't access any data member, any instance variable without a function.
 It means we should create a function and only that function can access these variables and
-data members. Basically we are discussing about getter and setter method. When we create this
+data members. Basically we are discusing about getter and setter method. When we create this
 getter setter functions, they can set the value and get the value also. Now getting and setting
 the values can be controlled.
  Encapsulation is nothing but adding private key to the data members and using getter setter

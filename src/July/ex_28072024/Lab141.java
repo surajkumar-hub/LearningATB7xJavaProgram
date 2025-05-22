@@ -5,7 +5,7 @@ public class Lab141 {
         //  Class - Attribute / properties - is nothing but datatypes - primitive or non-primitive
         // Class - Behaviour /Methods - is nothing but functions
         // object - is nothing but a real entity which is created from a class
-        /** Below is the syntax of creating an object:
+        /** syntax of creating an object:
         ClassName classRef = new ClassName(); **/
 
         // new ClassName(); is the Object

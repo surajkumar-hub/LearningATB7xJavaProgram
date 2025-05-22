@@ -30,7 +30,7 @@ public class Lab164 {
 /** Advantages of Encapsulation:
  1. Data Hiding
  2. Increased Flexibility - We can make the variables of the class read only or write only depending
- on requirement
+ on requirement.
  3.Security
- 4.
+ 4.Maintain the privacy
  */
