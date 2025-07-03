@@ -7,8 +7,8 @@ public class Lab157 {
         Child c1 = new Child();
         c1.home(); // Here by using c1 ref. we can access child home because local has more priority
 
-        /** If home name is same then automatically 1st priority will be Child -> then Father ->
-        then GF. If home name is different then we"ll get option which one to use.
+        /** Here home name is same in all the cases. If name is same, then automatically 1st priority will be
+         Child -> then Father -> then GF. If name is different then we"ll get option which one to use.
          Suppose child doesn't have home then it"ll fetch father's 2BHK and if father doesn't have
         any home then it"ll fetch GF's home **/
 

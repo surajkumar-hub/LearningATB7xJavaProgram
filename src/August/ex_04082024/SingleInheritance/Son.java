@@ -1,6 +1,6 @@
 package August.ex_04082024.SingleInheritance;
 
-
+// Here Son is sub class
 public class Son extends Father { // Sub Class
     // IS A - RELATIONSHIP
     void bhk3()

@@ -5,7 +5,7 @@ public class Lab197 {
 
         try {
             int a = 10/0;
-        } catch (Exception pramod) {
+        } catch (Exception pramod) { // instead of e we can write anything as it is just a ref variable
             System.out.println("Div by Zero");
             //pramod.getMessage()
         } finally {

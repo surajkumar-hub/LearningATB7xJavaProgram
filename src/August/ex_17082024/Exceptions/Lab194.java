@@ -24,7 +24,7 @@ public class Lab194 {
 //        System.out.println(b);
 //        System.out.println("End of the program");
 
-        // Instead of 3 try / catch block we can surround all 3 expression with try /catch block
+        // Instead of 3 try / catch block, we can surround all 3 expression with try /catch block
 
         int b = 0; // ArithmeticException
         try {

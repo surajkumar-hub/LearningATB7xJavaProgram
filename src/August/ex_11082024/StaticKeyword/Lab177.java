@@ -31,17 +31,19 @@ class ATB{
         // What is the purpose of this?
         // Here we can write code related to -
         // for ex- If we want start a website or anything before starting the web automation or
-        // api automation
+        // api automation. For ex -
         System.out.println("Reading from CSV file");
     }
 
-    static {
+    static
+    {
         System.out.println("This static block wilL be called automatically when we load the class");
     }
 
     private String name;
-    private String phone;
-    static String courseName = "ATB";
+    private String phone;// Phone no can't be static as it should be different for everyone
+    static String courseName = "ATB";// We can use static when there is a common attribute between the objects
+
 
     public String getName()
     {
@@ -57,13 +59,18 @@ class ATB{
     {
         this.name = name;
     }
+    /** static public ATB(String name)
+    {
+        this.name = name;
+    } Constructor can't be static **/
 
     static void doAssignment()
     {
         System.out.println("Do Assignment");
     }
 
-    static class A {
-
+    static class A
+    {
+        // Class within the class is also possible
     }
 }

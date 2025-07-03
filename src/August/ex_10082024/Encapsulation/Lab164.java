@@ -6,8 +6,7 @@ public class Lab164 {
         ICICIBank amit = new ICICIBank("Amit",100);
         // I want to set the balance
         // But only admin can set the balance
-
-        // amit.name = "dasdd"; // With reference not allowed. have to use setter method
+         // amit.name = "dasdd"; // With reference not allowed. have to use setter method
         amit.setBal(1000000000,false);
         //amit.setBal(); // not possible
         System.out.println(amit.getName()); // Allowed
@@ -27,10 +26,3 @@ public class Lab164 {
 // Getter and setter will basically help us to get or set the value via the methods only not with
 // the reference
 
-/** Advantages of Encapsulation:
- 1. Data Hiding
- 2. Increased Flexibility - We can make the variables of the class read only or write only depending
- on requirement.
- 3.Security
- 4.Maintain the privacy
- */

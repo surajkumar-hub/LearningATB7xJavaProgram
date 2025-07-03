@@ -12,5 +12,4 @@ public class Cop {
     {
         System.out.println("Yes, You can!!");
     }
-    // protected = default - minor -
 }

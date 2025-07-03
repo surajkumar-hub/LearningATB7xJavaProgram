@@ -10,7 +10,8 @@ public class Lab183 {
 
 class APIAutomation{
 
-    static {
+    static
+    {
         // write a code to load the data from the MySQL
         System.out.println("Loaded data from the MYSQL");
     }
@@ -21,3 +22,7 @@ class APIAutomation{
 
     }
 }
+
+/** OP:
+ Loaded data from the MYSQL
+ Loaded data from the CSV **/

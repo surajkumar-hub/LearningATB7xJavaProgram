@@ -4,9 +4,9 @@ public class Lab191 {
     public static void main(String[] args) {
         System.out.println("Start of the program");
 
-        String ip = args[0]; // ArrayIndexOutOfBoundsException
-        int a = Integer.parseInt(ip); // NumberFormatException
-        int b = 1000 / a; // ArithmeticException
+        String ip = args[0]; // ArrayIndexOutOfBoundsException - if we don't enter any arguments
+        int a = Integer.parseInt(ip); // NumberFormatException - if we enter string (Pramod)
+        int b = 1000 / a; // ArithmeticException - If we enter 0 bcoz we can't divide by 0
         System.out.println(b);
         System.out.println("End of the program");
 

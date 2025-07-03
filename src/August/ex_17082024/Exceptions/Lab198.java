@@ -7,14 +7,14 @@ import java.io.FileReader;
 public class Lab198 {
     public static void main(String[] args) {
         try {
-            int a = 10/0; // Uncheck Arithmetic Exception
+            int a = 10/0; // Unchecked Arithmetic Exception
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
         try {
             FileReader f = new FileReader(new File("c://a.txt"));
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) { // Checked Exception
             throw new RuntimeException(e);
         }
 

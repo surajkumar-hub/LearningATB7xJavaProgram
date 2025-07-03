@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 public class Lab192 {
     public static void main(String[] args) {
-        // Exception
+        // Exception - 2 types - Checked and Unchecked
         // Checked means - JVM knows
 //        try {
 //            FileInputStream file = new FileInputStream("C://log.txt");
@@ -23,7 +23,7 @@ public class Lab192 {
         } catch (Exception e) {
             System.out.println("Error -  divided by zero");
         }
-        System.out.println("End of program");
+        System.out.println("End of the program");
 
     }
 }

@@ -8,12 +8,13 @@ public class Lab184 {
         Integer a = 10;
         void OC_m1()
         {
-            // System.out.println(b); // Not possible
+            // System.out.println(b); // Not possible. Outer class can't access inner class variable
 
             System.out.println("OC_M1");
         }
 
-        static class P {
+        static class P
+        {
 
         }
 
@@ -22,7 +23,7 @@ public class Lab184 {
             Integer b = 20;
             void Inner_m2()
             {
-                System.out.println(a); // Adv of inner class is they can access outer class instance variable
+                System.out.println(a); // Adv of inner class is it can access outer class instance variable
                 System.out.println("IC_M2");
 
             }

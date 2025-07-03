@@ -11,7 +11,7 @@ public class Lab163 {
 
 
         // Write a code to Authenticate
-        // Pramod is running the program - isAuth = true
+        // Pramod is running the program -  isAuth = true
         // vwoLogin.setPassword("1234",true);
         // if it is true, we're allowed to change the pwd but if it is false then we're not allowed
         vwoLogin.setPassword("1234",false);
@@ -58,9 +58,9 @@ class VWOLogin1
 }
 
 /** Encapsulation says you can't access any data member, any instance variable without a function.
-It means we should create a function and only that function can access these variables and
-data members. Basically we are discusing about getter and setter method. When we create this
-getter setter functions, they can set the value and get the value also. Now getting and setting
-the values can be controlled.
+It means we should create a function and only that function can access these data members or attributes.
+ Basically we are discusing about getter and setter method. When we create this getter setter functions,
+ they can set the value and get the value also. Now getting and setting the values can be controlled.
+
  Encapsulation is nothing but adding private key to the data members and using getter setter
  methods **/

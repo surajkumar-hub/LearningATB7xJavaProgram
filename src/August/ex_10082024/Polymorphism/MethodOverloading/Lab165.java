@@ -1,6 +1,6 @@
 package August.ex_10082024.Polymorphism.MethodOverloading;
 
-public class Lab165 {
+public class   Lab165 {
     // Polymorphism -> Poly means many and morphism means form
     // It is also a core concept of OOPS that allows methods to perform different tasks based on the
     // object that invokes them

@@ -8,11 +8,13 @@ public class ICICIBank {
     private String name;
     private long bal;
 
-    public ICICIBank(String name, long bal) {
+    // PC Constructor
+    public ICICIBank(String name, long bal)
+        {
         this.name = name;
         this.bal = bal;
     }
-
+    // Getter Setter Methods
     public long getBal(boolean isAdmin)
     {
         if (isAdmin)
@@ -56,3 +58,16 @@ public class ICICIBank {
 }
 
 // Use setter and getter method with condition to secure your data member
+// Getter is used to fetch the data member
+// Setter is used to update the value
+// We"ll be Encapsulation concept in -
+// Web Automation - When we create a Page Class
+// API Automation - When we create a Pojo Class
+
+/** Advantages of Encapsulation:
+ 1. Data Hiding
+ 2. Increased Flexibility - We can make the variables of the class read only or write only depending
+ on requirement.
+ 3.Security
+ 4.Maintain the privacy
+ */

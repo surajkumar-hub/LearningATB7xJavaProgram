@@ -6,17 +6,19 @@ public class Hound extends Dog {
     // {
     // System.out.println("I am Dog, i will Bark!!");
     // }
+    // int age = 10;
 
     @Override
     void bark()
     {
         System.out.println("I am Hound, i will Bark!!");
     }
-
     void bike()
     {
-        System.out.println("Biked");
+        System.out.println("Bike");
     }
+
+
 }
 
 /** If we call bark(), then JVM will get confused, which bark() should be called. Whether Dog class

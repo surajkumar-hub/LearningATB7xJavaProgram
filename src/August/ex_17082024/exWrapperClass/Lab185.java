@@ -5,7 +5,7 @@ public class Lab185 {
         Car c = new Car("Lambo");
         c.drive();
         // System.out.println(c.make); // Can't access because of private
-        // This is how we can access the inner class - This is inner class object creation
+        // This is how we can access the inner class - This is inner class object creation -
         Car.GearBox cg = c.new GearBox();
         cg.m2();
 

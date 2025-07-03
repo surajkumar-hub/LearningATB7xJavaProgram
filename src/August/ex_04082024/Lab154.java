@@ -5,20 +5,23 @@ import java.util.Scanner;
 public class Lab154 {
     public static void main(String[] args) {
         BankAccount ba1 = new BankAccount();
-        System.out.println(ba1.bankName);
-        System.out.println(ba1.balance);
-        System.out.println(ba1.bankCode);
+        System.out.println(ba1.bankName); // SBI
+        System.out.println(ba1.balance); // 0
+        System.out.println(ba1.bankCode); // SBI001
         // Here default constructor has been used
 
         BankAccount baicici = new BankAccount("ICICI", 100, "ICICI0001");
-        // Here parameterized constructor has been used
+        System.out.println(baicici.bankName);
+        System.out.println(baicici.balance);
+        System.out.println(baicici.balance);
+        // Here parameterized constructor has been used.
         // Why parameterized constructor are used - If we initialize the values with the default
         // values before starting the program, we need to use parameterized constructor
 
         baicici.printDetails();
         ba1.printDetails();
 
-        // Get the details from the user
+       //Get the details from the user
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your Name of the Bank!");
         String bName = sc.next();

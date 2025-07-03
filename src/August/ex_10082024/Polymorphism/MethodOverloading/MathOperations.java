@@ -14,6 +14,8 @@ public class MathOperations {
         this.name = name;
     }
 
+    // Below is the concept of Method Overloading
+
     int add(int a, int b)
     {
         return a + b;
@@ -23,8 +25,6 @@ public class MathOperations {
     {
         return a + b;
     } **/ // If we use same parameter that is not allowed
-
-    // Below is the concept of Method Overloading
 
     int add(int pramod, int dutta, int amit, int megha)
     {
@@ -41,7 +41,7 @@ public class MathOperations {
         return a + b;
     }
      By using polymorphism no need to create a different method to perform addition of 2 number.
-     Instead we can use same method name. Based on the argument, it"ll decide which one to call **/
+     Instead, we can use same method name. Based on the argument, it"ll decide which one to call **/
 
     double add(double a, double b)
     {

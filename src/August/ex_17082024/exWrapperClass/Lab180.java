@@ -13,7 +13,7 @@ public class Lab180 {
         System.out.println(a2);
 
         // We"ll use this concept whenever we are converting String ->  int, Integer
-        // When will we use this concept - Primitive to Wrapper or reverse then we"ll use the concept.
+        // When we need to convert Primitive to Wrapper or reverse then we"ll use this concept.
 
     }
 }

@@ -1,7 +1,8 @@
 package August.ex_04082024.HierarchicalInheritance;
 
 public class Lab158 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Ruhani r = new Ruhani();
         r.home();
         r.r1();

@@ -16,13 +16,14 @@ class A{
     static int discount = 199; // static variable
 
     // SIB - STATIC Initialization Block
-    static {
-        System.out.println("One Time Load SIB");
+    static
+    {
+        System.out.println("One Time Load SIB"); // This will print when the class is loaded
     }
 
     // IIB - Instance Initialization Block
     {
-        System.out.println("IIB - When Object is created");
+        System.out.println("IIB - When Object is created"); // This will print when an object is created
     }
 
     static void m1()
