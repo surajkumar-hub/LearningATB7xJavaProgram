@@ -18,7 +18,6 @@ exercise that I have done in the ATB7x batch
 
 [Core.Java.pdf](https://github.com/user-attachments/files/17091024/Core.Java.pdf)
 
-Postman collection also added
 Restfull Booker API Automation by using newman
 <img width="1370" height="1472" alt="image" src="https://github.com/user-attachments/assets/9c84f07f-02a3-4bed-9865-638c311f0532" />
 Data Driven Testing by using newman
